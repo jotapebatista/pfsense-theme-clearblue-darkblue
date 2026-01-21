@@ -1,15 +1,16 @@
-# pfsense-theme-clearblue
-A clean pfSense theme with sidebar navigation
+# pfsense-theme-clearblue-darkblue
+A dark variant of the ClearBlue pfSense theme with sidebar navigation
 
 # Installation
 1. Run the installer script from a shell prompt 
 ```
-curl -s https://raw.githubusercontent.com/scottlimmer/pfsense-theme-clearblue/refs/heads/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/jotapebatista/pfsense-theme-clearblue-darkblue/refs/heads/main/install.sh | bash
 ```
 
-2. Navigate to `System -> General Setup -> webConfigurator` and change `Theme` to `clearblue`
+2. Navigate to `System -> General Setup -> webConfigurator` and change `Theme` to `clearblue-dark`
 
-# Screenshots
-<img src="https://github.com/scottlimmer/pfsense-theme-clearblue/assets/23328069/1835aed9-ace8-4201-8370-7f15e48fbdd7" alt="desktop">
-<img src="https://github.com/scottlimmer/pfsense-theme-clearblue/assets/23328069/425c60fd-3b0a-4c12-bd13-58896425316b" alt="mobile" width=412>
-<img src="https://github.com/scottlimmer/pfsense-theme-clearblue/assets/23328069/7fb9c774-8f9c-435d-bf01-9a2742b2fb34" alt="mobile-menu" width=412>
+# Credits
+
+This theme is a dark-mode fork of the excellent **ClearBlue** theme by Scott Limmer:  
+[`scottlimmer/pfsense-theme-clearblue`](https://github.com/scottlimmer/pfsense-theme-clearblue).
+

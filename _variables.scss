@@ -1,6 +1,10 @@
 $gutter: 15px;
 $sidebar-width: 150px;
 
+// Base page colors (light theme)
+$body-bg: #FFFFFF;
+$body-fg: #111111;
+
 $sidebar-bg: #2279C6;
 $sidebar-fg: #FFFFFF;
 $sidebar-active-bg: #003B6F;
@@ -31,3 +35,6 @@ $footer-bg: #F4F4F4;
 
 $progress-bg: #888888;
 $progress-fg: #2279C6;
+
+// Tables
+$table-border-color: #EEEEEE;

@@ -1,0 +1,51 @@
+// Dark variant of ClearBlue theme
+
+$gutter: 15px;
+$sidebar-width: 150px;
+
+// Base page colors (dark theme)
+$body-bg: #020617; // near-black navy
+$body-fg: #e5e7eb;
+
+// Sidebar
+$sidebar-bg: #020617;
+$sidebar-fg: #e5e7eb;
+$sidebar-active-bg: #1d4ed8;
+$sidebar-badge-bg: #38bdf8;
+
+// Branding / links
+$logo-fg: #e5e7eb;
+$link-fg: #38bdf8;
+
+// Nav buttons (pills/tabs)
+$nav-button-highlight: #facc15;
+$nav-button-lowlight: #4b5563;
+$nav-button-fg: #e5e7eb;
+$nav-button-bg: #111827;
+
+// Status backgrounds
+$warning-bg: #433515;
+$success-bg: #14532d;
+
+// Panels
+$panel-header-bg: #020617;
+$panel-header-fg: #e5e7eb;
+$sub-panel-header-bg: #020617;
+
+// Header widgets / links
+$header-link-fg: #e5e7eb;
+$header-widget-fg: #e5e7eb;
+$header-widget-bg: #1f2937;
+$header-widget-hover-bg: #1d4ed8;
+
+// Layout header/footer
+$header-bg: #020617;
+$footer-bg: #020617;
+
+// Progress bars
+$progress-bg: #1f2937;
+$progress-fg: #38bdf8;
+
+// Tables
+$table-border-color: #1f2937;
+
