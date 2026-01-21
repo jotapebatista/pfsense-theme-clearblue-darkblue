@@ -1,9 +1,11 @@
 .panel {
     border: 0;
     box-shadow: none;
+    background-color: transparent;
 }
 
 .panel-default {
+    background-color: transparent;
     &.col-sm-10 {
         float: none;
         margin-left: auto;
@@ -28,6 +30,7 @@
 
     .panel-body {
         padding: 0;
+        background-color: transparent;
 
         .form-group {
             margin-bottom: 10px;

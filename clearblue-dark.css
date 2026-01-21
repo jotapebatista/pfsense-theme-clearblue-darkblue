@@ -24,6 +24,10 @@ body {
   color: #e5e7eb;
 }
 
+.container {
+  background-color: transparent;
+}
+
 a {
   color: #38bdf8;
 }
@@ -63,6 +67,7 @@ a {
   overflow-y: auto;
   position: fixed;
   top: 0;
+  background-color: #020617;
   /**
       This is only present as Firefox doesn't consider the scrollbar
       when determining width of a fixed position container.
@@ -73,6 +78,9 @@ a {
       scrollbar-width property is also only supported by Firefox at 09-2023
    */
   scrollbar-width: thin;
+}
+.navbar-nav > li > .dropdown-menu li a {
+  color: #e5e7eb;
 }
 .navbar-nav > li > .dropdown-menu li a {
   padding: 10px 15px;
@@ -304,8 +312,12 @@ nav.action-buttons {
 .panel {
   border: 0;
   box-shadow: none;
+  background-color: transparent;
 }
 
+.panel-default {
+  background-color: transparent;
+}
 .panel-default.col-sm-10 {
   float: none;
   margin-left: auto;
@@ -327,6 +339,7 @@ nav.action-buttons {
 }
 .panel-default .panel-body {
   padding: 0;
+  background-color: transparent;
 }
 .panel-default .panel-body .form-group {
   margin-bottom: 10px;
