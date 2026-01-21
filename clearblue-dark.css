@@ -385,6 +385,8 @@ table[data-sortable].sortable-theme-bootstrap thead th {
 
 .table > thead > tr > th {
   border-bottom-width: 1px;
+  background-color: #020617;
+  color: #e5e7eb;
 }
 
 .table > tbody > tr > td,
@@ -394,6 +396,8 @@ table[data-sortable].sortable-theme-bootstrap thead th {
 .table > thead > tr > td,
 .table > thead > tr > th {
   border-top: 1px solid #1f2937;
+  background-color: #020617;
+  color: #e5e7eb;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
@@ -419,17 +423,19 @@ table[data-sortable].sortable-theme-bootstrap thead th {
   overflow: hidden;
 }
 
-.form-control,
+input,
 select,
-textarea {
+textarea,
+.form-control {
   background-color: #020617;
   color: #e5e7eb;
   border-color: #4b5563;
 }
 
-.form-control:focus,
+input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+.form-control:focus {
   background-color: #020617;
   color: #e5e7eb;
   border-color: #38bdf8;

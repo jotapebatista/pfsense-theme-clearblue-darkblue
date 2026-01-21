@@ -3,17 +3,19 @@
     overflow: hidden;
 }
 
-.form-control,
+input,
 select,
-textarea {
+textarea,
+.form-control {
     background-color: $input-bg;
     color: $input-fg;
     border-color: $input-border;
 }
 
-.form-control:focus,
+input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+.form-control:focus {
     background-color: $input-bg;
     color: $input-fg;
     border-color: $input-focus-border;
