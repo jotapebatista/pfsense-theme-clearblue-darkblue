@@ -569,4 +569,24 @@ textarea:focus,
   white-space: nowrap;
 }
 
+.dashboard,
+.dashboard .panel,
+.dashboard .panel-body {
+  color: #e5e7eb;
+}
+
+.jqplot-axis,
+.jqplot-xaxis,
+.jqplot-yaxis,
+.jqplot-xaxis-tick,
+.jqplot-yaxis-tick,
+.jqplot-axis-tick,
+.flot-tick-label {
+  color: #e5e7eb !important;
+}
+
+svg text {
+  fill: #e5e7eb;
+}
+
 /*# sourceMappingURL=clearblue-dark.css.map */

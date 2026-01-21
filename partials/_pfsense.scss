@@ -15,3 +15,26 @@
         white-space: nowrap;
     }
 }
+
+// Dashboard / traffic graphs labels (flot/jqPlot/SVG text)
+.dashboard,
+.dashboard .panel,
+.dashboard .panel-body {
+    color: $body-fg;
+}
+
+// Common tick/axis label classes used by pfSense graphs
+.jqplot-axis,
+.jqplot-xaxis,
+.jqplot-yaxis,
+.jqplot-xaxis-tick,
+.jqplot-yaxis-tick,
+.jqplot-axis-tick,
+.flot-tick-label {
+    color: $body-fg !important;
+}
+
+// Fallback for SVG-based graphs
+svg text {
+    fill: $body-fg;
+}
